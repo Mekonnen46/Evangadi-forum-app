@@ -1,0 +1,20 @@
+.buttonLink {
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .buttonLink:hover {
+    background-color: darkorange;
+  }
+  .buttonLink a{
+    text-decoration: none;
+    color: white;
+  }
+  .contanier p{
+    font-size: 20px;
+  }

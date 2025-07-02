@@ -1,0 +1,22 @@
+.container {
+  text-align: center;
+  padding: 5rem 1rem;
+}
+
+.homeLink {
+  display: inline-block;
+  margin-top: 1rem;
+  color: white;
+  background: linear-gradient(135deg, #035dbc, #abdeed);
+  padding: 0.25rem 1rem;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.homeLink:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(3, 93, 188, 0.4);
+}
+

@@ -1,0 +1,148 @@
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 5% auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+}
+.questionIcon{
+  display: flex;
+gap: 3px;
+}
+.questionIcon svg{
+  color:orange;
+  margin-top: 7px;
+  /* font-size: large; */
+}
+.answerBox {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  list-style-type: none;
+  position: relative;
+}
+
+.answerBox:hover {
+  background-color: #f1f1f1;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.user p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.editButton,
+.deleteButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  font-size: 0.9rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.editButton {
+  color: #9fcaf9;
+}
+.deleteButton {
+  color: #f8a7af;
+}
+  .btnIcon svg:hover{
+    font-weight: bold;
+    transform: scale(1.25);
+    transition: transform 0.2s ease;
+  }
+  .editButton:hover {
+  color: #007bff;
+ text-decoration: underline;
+}
+
+.deleteButton:hover {
+  text-decoration: underline;
+  color: #dc3545;
+}
+
+.form {
+  margin-top: 2rem;
+  padding-top: 1rem;
+}
+
+.inputArea {
+  width: 100%;
+  min-height: 100px;
+  padding: 1rem;
+  margin-top: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  resize: vertical;
+}
+.inputArea:focus{
+  outline: none;
+  border-color: #007bff;
+}
+
+.submitBtn {
+  margin-top: 1rem;
+  padding: 0.7rem 1.2rem;
+  background: linear-gradient(135deg, #035dbc, #abdeed);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.submitBtn:hover {
+  background: linear-gradient(135deg, #024da3, #96ccdc);
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 10% !important;
+  position: relative;
+}
+
+.pageButton {
+  padding: 0.5rem 0.9rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.pageButton:hover {
+  background-color: #f0f0f0;
+}
+
+.pageButton.active {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+.editedLabel {
+  color: #888;
+  font-size: 0.8rem;
+  font-style: italic;
+  margin-left: 15px;
+  text-align: end;
+}
+
